@@ -1,5 +1,6 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 @import "overlay.css";
+@import "star.css";
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 html {
@@ -59,6 +60,7 @@ div.konten.animated {
   height: 0%;
   background: #fff;
   width: 90%;
+  max-height: 62%;
   border: 2px #000 solid;
   box-shadow: 5px 5px #000;
 }
@@ -102,6 +104,6 @@ div#imageDiv {
   }
   to {
     width: 90%;
-    height: fit-content;
+    height:fit-content;
   }
 }

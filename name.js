@@ -31,5 +31,14 @@ export var nameList =
 "Dika II",
 "Muhammad Rafuri",
 "Rinn",
-"Zahra"
+"Zahra",
+"Sya Chan Megumi",
+"Ryoba Aishi",
+"Dee",
+"Fkhri Maulana",
+"Purnama Dipa",
+"Banzai Zog",
+"Izukacchi",
+"Sal ID",
+"Han"
 ]
