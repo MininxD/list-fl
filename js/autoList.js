@@ -2,7 +2,7 @@ import {nameList} from '../name.js';
 
 
 var i = 0;
-var randomPadding = ["5px","8px","10px","13px"];
+var randomPadding = ["4px","6px","8px","10px"];
 
 export function increment() {
   gsap.utils.shuffle(nameList);

@@ -7,6 +7,7 @@ var warna = [
 "#fcfb49",
 "#79ff9c",
 "#ed74a4",
+"#8ec5f9",
   ]
   
 
@@ -46,3 +47,14 @@ sticker_15.style.filter = "drop-shadow(0 0 15px"+ warna[iii] +")";
     iii = 0
   }
 }, 100)
+
+
+
+
+
+sticker_15.addEventListener("click", function() {
+  randColor();
+  setTimeout(function() {
+    stopRandColor();
+  }, 5000);
+}) 

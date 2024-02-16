@@ -10,8 +10,4 @@ gsap.utils.shuffle(totalGifArr);
 console.log(totalGifArr[0]);
 
   outputImages.setAttribute("src", "../gif/sticker_"+ totalGifArr[0] + ".gif")
-
-
-  
-  
 }

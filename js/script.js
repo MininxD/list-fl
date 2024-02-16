@@ -1,9 +1,10 @@
 import {gif} from './randomGif.js';
 import {increment} from './autoList.js';
 import {randColor, stopRandColor} from './color.js';
+import {addStar} from "./star.js";
+addStar();
 
   increment();
-
 var lagu = new Audio("../konga.mp3");
 gsap.registerPlugin(Draggable);
 
@@ -49,6 +50,9 @@ imageDiv.addEventListener("mousedown", function() {
 imageDiv.addEventListener("touchend", function() {
   stopRandColor();
 })
-imageDiv.addEventListener("mousedown", function() {
+imageDiv.addEventListener("mouseup", function() {
   stopRandColor();
 })
+
+
+
